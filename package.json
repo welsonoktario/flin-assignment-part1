@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Part 1 - Chatbot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently 'npm run dev -w apps/backend' 'npm run dev -w apps/frontend'",
+    "build": "npm run build -w apps/frontend",
+    "start": "concurrently 'npm run start -w apps/backend' 'npm run preview -w apps/frontend'"
+  },
+  "author": "Welson Gunawan",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
