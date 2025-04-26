@@ -20,5 +20,3 @@ In this assignment I used a NPM workspace containing both frontend and backend f
 - `npm run build`
 - `npm run start`
 - To access the chatbot, open `http://localhost:4173`.
-
-#### [Demo](https://flin-chatbot.vercel.app)
